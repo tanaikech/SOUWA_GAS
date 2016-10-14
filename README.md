@@ -6,7 +6,7 @@ A library for Google Apps Script (GAS)
 
 SOUWA means summing in Japanese.
 
-SOUWA can sum string elements in an array at the high speed. The speed of SOUWA with the pyramid algorithm is about 380 times faster than that of the standard method. New algorithm for summing array elements was developed for SOUWA. You can see the detailed report of this library at [here](). If you are interested in this, I'm glad.
+SOUWA can sum string elements in an array at the high speed. The speed of SOUWA with the pyramid algorithm is about 380 times faster than that of the standard method. New algorithm for summing array elements was developed for SOUWA. You can see the detailed report of this library at [here](https://tanaikech.github.io/2016/10/13/improved-algorithms-for-summation-of-array-elements/). If you are interested in this, I'm glad.
 
 ## Demo
 
