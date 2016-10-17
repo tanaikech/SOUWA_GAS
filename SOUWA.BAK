@@ -61,9 +61,9 @@ function getSeparate_(TArray, standardMethod) {
     theta_row[0] = thetaLen;
   } else {
     for (var i=1; i <= (mr - standardMethod); i++) {
-      theta_row[i-1] = parseInt(String(thetaLen).slice(i-1,i)) * Math.pow(10, (mr - i), 10);
+      theta_row[i-1] = parseInt(String(thetaLen).slice(i-1,i)) * Math.pow(10, (mr - i));
     }
-    theta_row[i-1] = parseInt(String(thetaLen).slice(mr - standardMethod), 10);
+    theta_row[i-1] = parseInt(String(thetaLen).slice(mr - standardMethod));
   }
   return theta_row;
 }
