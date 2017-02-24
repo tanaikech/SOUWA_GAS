@@ -1,4 +1,8 @@
-# SOUWA
+SOUWA
+====
+
+[![Code Climate](https://codeclimate.com/github/tanaikech/SOUWA_GAS/badges/gpa.svg)](https://codeclimate.com/github/tanaikech/SOUWA_GAS)
+[![Issue Count](https://codeclimate.com/github/tanaikech/SOUWA_GAS/badges/issue_count.svg)](https://codeclimate.com/github/tanaikech/SOUWA_GAS)
 
 A library for Google Apps Script (GAS)
 
