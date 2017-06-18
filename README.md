@@ -4,12 +4,12 @@ SOUWA
 [![Code Climate](https://codeclimate.com/github/tanaikech/SOUWA_GAS/badges/gpa.svg)](https://codeclimate.com/github/tanaikech/SOUWA_GAS)
 [![Issue Count](https://codeclimate.com/github/tanaikech/SOUWA_GAS/badges/issue_count.svg)](https://codeclimate.com/github/tanaikech/SOUWA_GAS)
 
-A library for Google Apps Script (GAS)
+A library for Google Apps Script (GAS). SOUWA can sum string elements in an array at the high speed.
 
 ## Description
-SOUWA means summing in Japanese.
+SOUWA means summing in Japanese. SOUWA is a library for GAS. **This can sum the string array elements 380 times faster than the general method by new algorithm which is called the pyramid algorithm.** This can be used for creating large CSV data at Google Apps Script.
 
-SOUWA can sum string elements in an array at the high speed. The speed of SOUWA with the pyramid algorithm is about 380 times faster than that of the standard method. New algorithm for summing array elements was developed for SOUWA. You can see the detailed report of this library at [here](https://tanaikech.github.io/2016/10/13/improved-algorithms-for-summation-of-array-elements/). If you are interested in this, I'm glad.
+You can see the detailed report of this library at [here](https://tanaikech.github.io/2016/10/13/improved-algorithms-for-summation-of-array-elements/). If you are interested in this, I'm glad.
 
 ## Demo
 
