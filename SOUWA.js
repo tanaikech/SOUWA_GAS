@@ -14,8 +14,10 @@ function souwa(BaseArray, Delimiter, Endcode) {
   var souwa_dat = '';
   if (BaseArray.length === 0){
     return null;
-  } else if (BaseArray.length == 1) {
-    return BaseArray[0].join(Delimiter) + Endcode;
+  } else if (BaseArray.length < 10) {
+    var temp = "";
+    [temp += i.join(Delimiter) + Endcode for each (i in BaseArray)];
+    return temp;
   } else {
     var standardMethod = 3;
     var phi = 10;
